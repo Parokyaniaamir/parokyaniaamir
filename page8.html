@@ -1,24 +1,30 @@
 <html>
 <head>
-    <title>HTML and CSS Lessons</title>
+    <title>Branches of Science</title>
 
     <style>
         body {
             background-color: #f2f2f2;
             font-family: Arial, sans-serif;
-            margin: 20px;
+            margin: 0;
+        }
+
+        header {
+            background-color: darkblue;
+            color: white;
+            text-align: center;
+            padding: 25px;
         }
 
         h1 {
-            text-align: center;
-            color: darkblue;
+            margin: 0;
         }
 
-         {
+        .toc {
             background-color: lightblue;
             border: 2px solid blue;
             padding: 20px;
-            margin-bottom: 20px;
+            margin: 20px;
         }
 
         table {
@@ -42,7 +48,7 @@
             text-decoration: none;
         }
 
-         {
+        a:hover {
             text-decoration: underline;
         }
 
@@ -50,138 +56,130 @@
             background-color: white;
             border: 2px solid black;
             padding: 20px;
-            margin: 20px 0;
+            margin: 20px;
             border-radius: 10px;
         }
 
-         {
+        .section:hover {
             background-color: lightgreen;
-            border: 5px solid green;
-            padding: 20px;
-            margin: 30px;
+        }
+
+        footer {
+            background-color: darkblue;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 30px;
         }
     </style>
 </head>
 
 <body>
 
-    <h1>HTML and CSS Lessons</h1>
+    <header>
+        <h1>Branches of Science</h1>
+        <p>Discover the Different Fields of Science</p>
+    </header>
 
-   
     <div class="toc">
         <h2>Table of Contents</h2>
 
         <table>
             <tr>
                 <th>No.</th>
-                <th>Topic</th>
+                <th>Branch of Science</th>
                 <th>Description</th>
             </tr>
 
             <tr>
                 <td>1</td>
-                <td><a href="#sectioning">HTML Sectioning</a></td>
-                <td>Dividing a webpage into sections</td>
+                <td><a href="#biology">Biology</a></td>
+                <td>Study of living things</td>
             </tr>
 
             <tr>
                 <td>2</td>
-                <td><a href="#types">3 Types of CSS</a></td>
-                <td>Inline, Internal, and External CSS</td>
+                <td><a href="#physics">Physics</a></td>
+                <td>Study of matter, energy, and motion</td>
             </tr>
 
             <tr>
                 <td>3</td>
-                <td><a href="#selectors">CSS Selectors</a></td>
-                <td>Element, Class, and ID selectors</td>
+                <td><a href="#chemistry">Chemistry</a></td>
+                <td>Study of substances and their properties</td>
             </tr>
 
             <tr>
                 <td>4</td>
-                <td><a href="#border">CSS Border</a></td>
-                <td>Adding borders to elements</td>
+                <td><a href="#astronomy">Astronomy</a></td>
+                <td>Study of stars, planets, and space</td>
             </tr>
 
             <tr>
                 <td>5</td>
-                <td><a href="#background">CSS Background</a></td>
-                <td>Changing background colors and images</td>
+                <td><a href="#geology">Geology</a></td>
+                <td>Study of Earth, rocks, and minerals</td>
             </tr>
 
             <tr>
                 <td>6</td>
-                <td><a href="#boxmodel">CSS Box Model</a></td>
-                <td>Content, padding, border, and margin</td>
+                <td><a href="#ecology">Ecology</a></td>
+                <td>Study of organisms and their environment</td>
             </tr>
         </table>
     </div>
 
-
-    
-    <div class="section" id="sectioning">
-        <h2>1. HTML Sectioning</h2>
+    <div class="section" id="biology">
+        <h2>1. Biology</h2>
         <p>
-            HTML sectioning divides a webpage into different parts.
-            Examples are header, nav, main, section, article, and footer.
+            Biology is the study of living things, including humans,
+            animals, plants, and microorganisms.
         </p>
     </div>
 
-
-  
-    <div class="section" id="types">
-        <h2>2. 3 Types of CSS</h2>
-
-        <p><b>Inline CSS:</b> CSS written inside an HTML element.</p>
-
-        <p><b>Internal CSS:</b> CSS written inside the style tag.</p>
-
-        <p><b>External CSS:</b> CSS written in a separate CSS file.</p>
-    </div>
-
-
-    
-    <div class="section" id="selectors">
-        <h2>3. CSS Selectors</h2>
-
-        <p><b>Element Selector:</b> Selects HTML elements such as p and h1.</p>
-
-        <p><b>Class Selector:</b> Selects elements using a class name.</p>
-
-        <p><b>ID Selector:</b> Selects an element using an ID.</p>
-    </div>
-
-
-   
-    <div class="section" id="border">
-        <h2>4. CSS Border</h2>
-
+    <div class="section" id="physics">
+        <h2>2. Physics</h2>
         <p>
-            CSS borders are used to create lines around HTML elements.
-            Borders can have different colors, widths, and styles.
+            Physics studies matter, energy, force, motion, and how
+            the universe works.
         </p>
     </div>
 
-
-   
-    <div class="section" id="background">
-        <h2>5. CSS Background</h2>
-
+    <div class="section" id="chemistry">
+        <h2>3. Chemistry</h2>
         <p>
-            CSS backgrounds can be used to add colors or images
-            to the background of a webpage.
+            Chemistry studies substances, their properties,
+            their composition, and how they react with one another.
         </p>
     </div>
 
-
- 
-     <div class="section" id="background">
-        <h2>6. CSS Box Model</h2>
-
+    <div class="section" id="astronomy">
+        <h2>4. Astronomy</h2>
         <p>
-            The CSS Box Model has four parts:
-            content, padding, border, and margin.
+            Astronomy studies objects in space, such as stars,
+            planets, moons, galaxies, and the universe.
         </p>
     </div>
+
+    <div class="section" id="geology">
+        <h2>5. Geology</h2>
+        <p>
+            Geology studies the Earth, including rocks, minerals,
+            Earth's structure, and its history.
+        </p>
+    </div>
+
+    <div class="section" id="ecology">
+        <h2>6. Ecology</h2>
+        <p>
+            Ecology studies how living organisms interact with
+            one another and with their environment.
+        </p>
+    </div>
+
+    <footer>
+        <p>Made by Aamir Jeru S. Samson</p>
+    </footer>
 
 </body>
 </html>
